@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">evenOddNumber</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoJU3RyaW5nCW51bWJlciA9IElEYXRhVXRpbC5nZXRTdHJpbmcoIHBpcGVsaW5lQ3Vy
+c29yLCAibnVtYmVyIiApOw0KCUludGVnZXIgbnVtPUludGVnZXIucGFyc2VJbnQobnVtYmVyKTsN
+CglTdHJpbmcgcmVzdWx0Ow0KCWlmIChudW0gJSAyID09IDApIHtyZXN1bHQ9ImV2ZW4iO30NCgll
+bHNlIHsNCgkJcmVzdWx0PSJvZGQiOw0KICAgIH0NCnBpcGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsN
+Cg0KLy8gcGlwZWxpbmUNCi8vU3RyaW5nIGV2ZW5OdW09SW50ZWdlci50b1N0cmluZyhldmVuKTsN
+Ci8vU3RyaW5nIG9kZE51bT1JbnRlZ2VyLnRvU3RyaW5nKG9kZCk7DQpJRGF0YUN1cnNvciBwaXBl
+bGluZUN1cnNvcl8xID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJRGF0YVV0aWwucHV0KCBwaXBl
+bGluZUN1cnNvcl8xLCAicmVzdWx0IiwgcmVzdWx0ICk7DQovL0lEYXRhVXRpbC5wdXQoIHBpcGVs
+aW5lQ3Vyc29yXzEsICJvZGQiLCBvZGROdW0gKTsNCnBpcGVsaW5lQ3Vyc29yXzEuZGVzdHJveSgp
+Ow==</value>
+</Values>

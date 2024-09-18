@@ -1,0 +1,922 @@
+		<style>
+			table{border-collapse: collapse;}
+			th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+				table.b {
+  table-layout: fixed;
+   width: 600px;
+  word-wrap: break-word;
+}
+table.a {
+  table-layout: fixed;
+   width: 300px;
+  word-wrap: break-word;
+}
+table.c {
+  table-layout: fixed;
+  width: 1000px;  
+  word-wrap: break-word;
+}
+</style>
+
+		<table style="width:100%;border: 3px solid black ">
+				<tr style = "width:100%; border:#C30">
+                     <th>API Name</th>
+                     <th>API Version</th>
+					 <th>API Id</th>
+					 <th>API Active?</th>
+					 <th>API Type</th>
+					 <th>API Rest Enabled?</th>
+					 <th>GatewayEndpoint</th>					 
+					 <th>SOAP Operations</th>
+                     <th>Rest Resources and Methods</th>
+					 <th>PolicyIds</th>
+                     <th>Routing Type</th>
+					 <th>NativeEndpointURI's</th>
+                     <th>Applications(Id,Name,Version)</th>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>AddTwoNumber</td>
+                     <td>1.0</td>
+                     <td>f9359cfd-cf14-4e80-b6d1-69015eb5b3be</td>					 
+					 <td>true</td>
+					 <td>REST</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/gateway/AddTwoNumber/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/gateway/AddTwoNumber/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/sampl1/sample1</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 
+							 <tr>
+							 <td>/sampl1/sample2</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>38f322f4-e392-4825-acd3-a960da381cc2</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>${TestAdda}</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>4dc2f61a-8f6c-428b-8330-765bd5de2f6a</td>					 
+					 <td>true</td>
+					 <td>REST</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/gateway/Bank%20Customer/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/gateway/Bank%20Customer/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/custmrSvc/deleteCustomerDetails</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>delete</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 
+							 <tr>
+							 <td>/custmrSvc/getCustomerBankDetails</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>get</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 
+							 <tr>
+							 <td>/custmrSvc/openAccountForCustomer</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 
+							 <tr>
+							 <td>/custmrSvc/updateCustomerDetails</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>put</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>d278b0fe-8567-4bbb-8f31-512e0631e060</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/restv2/MiG22ADDAHackathon.services.stub:stubserviceresource/stubservice</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">04d817b0-e69d-44d5-b158-38a1013f8b30</td>
+							 <td script="width: 500px; word-wrap: break-word">BankCustomerDetails</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>ColorDetails</td>
+                     <td>1.0</td>
+                     <td>9d3383fd-a4dd-4298-86cd-1c5424fb6444</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td>true</td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/ColorDetails/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/ColorDetails/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>getColorDetails</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/getColorDetails</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>bf7e44b3-464b-4563-9004-02d1c18820ec</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/ws/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById/APIGatewayTestingSample_realTimeSOapData_getColorDetailsById_Port</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">07882723-4938-4791-8ba1-b3680bdaa124</td>
+							 <td script="width: 500px; word-wrap: break-word">ColorDetails</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>ConvertToUpperCase</td>
+                     <td>1</td>
+                     <td>02418ae6-2b36-4c18-b44f-1b893e539d56</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/ConvertToUpperCase/1</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/ConvertToUpperCase/1</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>request2</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>11015d4d-4c82-42f6-834e-757e78bc29fe</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/ws/APIGatewayTestingSample.soapServices.request2:new_wsd/APIGatewayTestingSample_soapServices_request2_new_wsd_Port</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">a794a2c3-52f3-4ea2-8f47-2f7728961083</td>
+							 <td script="width: 500px; word-wrap: break-word">convertToUpper</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>DataREST</td>
+                     <td>1.0</td>
+                     <td>ed392865-f9c4-445a-99cb-80d7eced1a0d</td>					 
+					 <td>true</td>
+					 <td>REST</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/gateway/DataREST/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/gateway/DataREST/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/getDataREST</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>get</td>
+									 </tr>
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>3b1a8044-3214-4dbf-b82f-1c173ce94f16</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/rad/zTemp.SOAPService:getDataRestD/${sys:resource_path}</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>DataSOAP</td>
+                     <td>1.0</td>
+                     <td>0e4227b6-2893-4ea5-af8c-0c68eff899ea</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td>true</td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/DataSOAP/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/DataSOAP/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>getData</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/getData</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>94cd7341-2ca2-4d1e-b6d5-b1283da37f7b</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/ws/zTemp.SOAPService:getDataSOAP</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>GetEmployeeList</td>
+                     <td>1.0</td>
+                     <td>cba57f1d-3ea8-4a81-92f6-7b0254878d32</td>					 
+					 <td>true</td>
+					 <td>REST</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/gateway/GetEmployeeList/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/gateway/GetEmployeeList/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/new_rest/sample7</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>de11b921-28c9-409f-a28a-9bd38f6d9129</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/rad/APIGatewayTestingSample.restServices.sample7:new_rad/${sys:resource_path}</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">02b4158f-260d-4afb-a131-4432a381e6c6</td>
+							 <td script="width: 500px; word-wrap: break-word">getEmployeeList</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>LaborDetails</td>
+                     <td>1</td>
+                     <td>0391b2e4-085e-4fba-8cd7-2a352c9830fc</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/LaborDetails/1</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/LaborDetails/1</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>request10</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>546e7888-d9a9-4323-866a-47e2aa0a3208</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/ws/APIGatewayTestingSample.soapServices.request10:new_wsd/APIGatewayTestingSample_soapServices_request10_new_wsd_Port</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">9db99f41-aa7c-4d18-843e-147dde09f517</td>
+							 <td script="width: 500px; word-wrap: break-word">laborDetails</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>MaxData</td>
+                     <td>1</td>
+                     <td>bb9436a7-5e93-480e-8ccd-bd10ee91abd2</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/MaxData/1</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/MaxData/1</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>request4</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>c6772e59-6930-4ff2-89ce-75ffdc29a5c9</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/ws/APIGatewayTestingSample.soapServices.request4:new_wsd/APIGatewayTestingSample_soapServices_request4_new_wsd_Port</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">2484b882-93dd-405d-bf6e-00f6ee023d23</td>
+							 <td script="width: 500px; word-wrap: break-word">maxData</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>OrderDetails</td>
+                     <td>1.0</td>
+                     <td>b4499a5a-55b1-4265-b820-484bbecd9220</td>					 
+					 <td>true</td>
+					 <td>REST</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/gateway/OrderDetails/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/gateway/OrderDetails/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/new_rest/sample5</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>8fb73762-9e6d-425d-8199-597c0acdad9d</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>https://mozillaTestVikas.com/rad/APIGatewayTestingSample.restServices.sample5:new_rad/${sys:resource_path}</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">f916c91c-4784-4fe9-b871-2afdfa6fe4c8</td>
+							 <td script="width: 500px; word-wrap: break-word">orderDetails</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>UserRegistration</td>
+                     <td>1.0</td>
+                     <td>1a70e499-ef56-461d-8d56-8ecd99e3e6fc</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td></td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/UserRegistration/1.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/UserRegistration/1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>userRegistration</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>915a4c30-2e15-4ae5-a225-d119cbc39571</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>straightThroughRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1.eur.ad.sag:5566/ws/APIGatewayTestingSample.realTimeSOapData:new_wsd/APIGatewayTestingSample_realTimeSOapData_new_wsd_Port</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 
+							 <tr>
+							 <td script="width: 500px; word-wrap: break-word">89d7e0c3-643c-4dee-af85-ef59aa68e80b</td>
+							 <td script="width: 500px; word-wrap: break-word">UserRegistration</td>
+							 <td script="width: 50px; word-wrap: break-word">1.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+				</tr>
+				
+<tr style = "width:100%;border: 2px solid black ">
+                     <td>VehicleOwnership</td>
+                     <td>2.0</td>
+                     <td>9a75bdd3-623f-11e8-942a-ac931b7bdbd4</td>					 
+					 <td>true</td>
+					 <td>SOAP</td>
+					 <td>true</td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:51232/ws/DigitalData/Traffic/VehicleOwnership/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://VMBANJNJVPROOF1:5555/ws/DigitalData/Traffic/VehicleOwnership/2.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>getVehicleRegistration</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>getVehicleRegistrationList</td>
+							 </tr>
+							 							 </table style="width:100%">
+					 </td>
+                     <td>
+							 <table class="a">
+							 
+							 <tr>
+							 <td>/getVehicleRegistration</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 
+							 <tr>
+							 <td>/getVehicleRegistrationList</td>
+							 <td>
+									 <table style="width:100%">
+									 
+									 <tr>
+									 <td>post</td>
+									 </tr>
+									 									 </table>
+							 </td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table style="width:100%">
+							 
+							 <tr>
+							 <td>df7ed366-16b6-433f-b1c9-4ba4b8025641</td>
+							 </tr>
+							 							 </table>
+					 </td>
+					 <td>loadBalancerRouting</td>
+                     <td>
+							 <table class="c">
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA01:8001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA01:9001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA02:8001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA02:9001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA03:8001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA03:9001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA04:8001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 
+							 <tr>
+							 <td>http://ESB-STAGE-SOA04:9001/DigitalDocuments/Traffic/VehicleOwnership/API/2.0</td>
+							 </tr>
+							 							 </table>
+					 </td>
+                     <td>
+							 <table class="b">
+							 
+							 							 </table>
+					 </td>
+				</tr>

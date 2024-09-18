@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+</style>
+	</head>
+	<body>
+		<table style="width:100%">
+				<tr>
+                     <th>API Name</th>
+                     <th>API Version</th>
+                     <th>Operation Name</th>					 
+					 <th>Response Status</th>
+					 <th>Native Request Status</th>
+					 <th>Native Response Status</th>					 
+					 <th>Overall Status</th>
+                     <th>Request Number</th>
+                     <th>ErrorMsg</th>
+					 <th>NativeErrorMsg</th>
+                     <th>Request</th>
+                     <th>Expected Response</th>
+                     <th>Actual Response</th>
+                     <th>Native Expected Request</th>
+					 <th>Native Actual Request</th>
+                     <th>Native Expected Response</th>
+                     <th>Native Actual Response</th>
+				</tr>
+			
+				<tr>
+                     <td>ColorDetails</td>
+                     <td>1.0</td>
+                     <td>getColorDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162019219</td>
+                     <td></td>
+					 <td></td>
+                     <td>{&#34;id&#34;:&#34;2&#34;}</td>
+                     <td>{&#34;getColorDetailsResponse&#34;:{&#34;responseMsg&#34;:&#34;&lt;?xml version=\&#34;1.0\&#34;?&gt;\n&lt;data&gt;\n  &lt;id&gt;2&lt;\/id&gt;\n  &lt;name&gt;fuchsia rose&lt;\/name&gt;\n  &lt;year&gt;2001&lt;\/year&gt;\n  &lt;color&gt;#C74375&lt;\/color&gt;\n  &lt;pantone_value&gt;17-2031&lt;\/pantone_value&gt;\n&lt;\/data&gt;&#34;}}</td>
+                     <td>{&#34;getColorDetailsResponse&#34;:{&#34;responseMsg&#34;:&#34;&lt;?xml version=\&#34;1.0\&#34;?&gt;\n&lt;data&gt;\n  &lt;id&gt;2&lt;\/id&gt;\n  &lt;name&gt;fuchsia rose&lt;\/name&gt;\n  &lt;year&gt;2001&lt;\/year&gt;\n  &lt;color&gt;#C74375&lt;\/color&gt;\n  &lt;pantone_value&gt;17-2031&lt;\/pantone_value&gt;\n&lt;\/data&gt;&#34;}}</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;axis2ns11:getColorDetails xmlns:axis2ns11=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;&lt;id&gt;2&lt;/id&gt;&lt;/axis2ns11:getColorDetails&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+					 <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;axis2ns22:getColorDetails xmlns:axis2ns22=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;&lt;id&gt;2&lt;/id&gt;&lt;/axis2ns22:getColorDetails&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;name&gt;fuchsia rose&amp;lt;/name&gt;
+  &amp;lt;year&gt;2001&amp;lt;/year&gt;
+  &amp;lt;color&gt;#C74375&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;17-2031&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;name&gt;fuchsia rose&amp;lt;/name&gt;
+  &amp;lt;year&gt;2001&amp;lt;/year&gt;
+  &amp;lt;color&gt;#C74375&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;17-2031&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+				</tr>
+			
+				<tr>
+                     <td>ColorDetails</td>
+                     <td>1.0</td>
+                     <td>getColorDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162013765</td>
+                     <td></td>
+					 <td></td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;getColorDetails xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;
+      &lt;id&gt;3&lt;/id&gt;
+    &lt;/getColorDetails&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;getColorDetails xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;
+      &lt;id&gt;3&lt;/id&gt;
+    &lt;/getColorDetails&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+					 <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;getColorDetails xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;
+      &lt;id&gt;3&lt;/id&gt;
+    &lt;/getColorDetails&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+				</tr>
+					</table>
+	</body>
+</html>

@@ -1,0 +1,537 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+</style>
+	</head>
+	<body>
+		<table style="width:100%">
+				<tr>
+                     <th>API Name</th>
+                     <th>API Version</th>
+                     <th>Operation Name</th>					 
+					 <th>Response Status</th>
+					 <th>Native Request Status</th>
+					 <th>Native Response Status</th>					 
+					 <th>Overall Status</th>
+                     <th>Request Number</th>
+                     <th>ErrorMsg</th>
+					 <th>NativeErrorMsg</th>
+                     <th>Request</th>
+                     <th>Expected Response</th>
+                     <th>Actual Response</th>
+                     <th>Native Expected Request</th>
+					 <th>Native Actual Request</th>
+                     <th>Native Expected Response</th>
+                     <th>Native Actual Response</th>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>LaborDetails</td>
+                     <td>1</td>
+                     <td>N/A</td>					 
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>No Test Data Available</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>MaxData</td>
+                     <td>1</td>
+                     <td>N/A</td>					 
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>No Test Data Available</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>OrderDetails</td>
+                     <td>1.0</td>
+                     <td>N/A</td>					 
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>No Test Data Available</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+					</table>
+	</body>
+</html>

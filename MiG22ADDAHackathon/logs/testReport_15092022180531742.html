@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+</style>
+	</head>
+	<body>
+		<table style="width:100%">
+				<tr>
+                     <th>API Name</th>
+                     <th>API Version</th>
+                     <th>Operation Name</th>
+                     <th>Request Number</th>
+                     <th>ErrorMsg</th>
+					 <th>NativeErrorMsg</th>
+                     <th>Request</th>
+                     <th>Expected Response</th>
+                     <th>Actual Response</th>
+                     <th>Response Status</th>
+                     <th>Native Request</th>
+                     <th>Native Expected Response</th>
+                     <th>Native Actual Response</th>
+                     <th>Native Response Status</th>
+                     <th>Overall Status</th>
+				</tr>
+			
+				<tr>
+					 <td>APIGatewayTestingSample.soapServices.request1.new_wsd</td>
+                     <td>1</td>
+                     <td>request1</td>
+                     <td>1</td>
+                     <td></td>
+					 <td></td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34; xmlns:apig=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34;&gt;&lt;soapenv:Body&gt;
+      &lt;apig:request1/&gt;
+   &lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request1Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;workingDays&gt;365&lt;/workingDays&gt;&lt;/ser-root:request1Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request1Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;workingDays&gt;365&lt;/workingDays&gt;&lt;/ser-root:request1Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>Success</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34; xmlns:apig=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34;&gt;&lt;soapenv:Body&gt;
+      &lt;apig:request1/&gt;
+   &lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request1Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;workingDays&gt;365&lt;/workingDays&gt;&lt;/ser-root:request1Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request1Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;workingDays&gt;365&lt;/workingDays&gt;&lt;/ser-root:request1Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>Success</td>
+                     <td>Success</td>
+				</tr>
+			
+				<tr>
+					 <td>APIGatewayTestingSample.soapServices.request1.new_wsd</td>
+                     <td>1</td>
+                     <td>request1</td>
+                     <td>2</td>
+                     <td>Content is not allowed in prolog.</td>
+					 <td></td>
+                     <td>{ }</td>
+                     <td>{&#34;request1Response&#34;:{&#34;workingDays&#34;:365}}</td>
+                     <td>{&#34;request1Response&#34;:{&#34;workingDays&#34;:365}}</td>
+                     <td>Failed</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;axis2ns44:request1 xmlns:axis2ns44=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34;/&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request1Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;workingDays&gt;365&lt;/workingDays&gt;&lt;/ser-root:request1Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request1Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request1:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;workingDays&gt;365&lt;/workingDays&gt;&lt;/ser-root:request1Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>Success</td>
+                     <td>Failed</td>
+				</tr>
+					</table>
+	</body>
+</html>
