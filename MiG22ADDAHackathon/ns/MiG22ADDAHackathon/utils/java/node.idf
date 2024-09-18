@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">MiG22ADDAHackathon.utils.java</value>
+  <value name="is_public">false</value>
+  <value name="shared">cHVibGljIHN0YXRpYyBTdHJpbmcgdW5jb21wcmVzc1N0cmluZyhTdHJpbmcgemlwcGVkQmFzZTY0
+U3RyKSAgdGhyb3dzIElPRXhjZXB0aW9uIHsKCVN0cmluZyB1bkNvbXByZXNzZWRQYXlsb2FkID0g
+bnVsbDsKCWJ5dGVbXSBieXRlcyA9IEJhc2U2NC5nZXREZWNvZGVyKCkuZGVjb2RlKHppcHBlZEJh
+c2U2NFN0cik7CglHWklQSW5wdXRTdHJlYW0gemkgPSBudWxsOwoJdHJ5ewoJemkgPSBuZXcgR1pJ
+UElucHV0U3RyZWFtKG5ldyBCeXRlQXJyYXlJbnB1dFN0cmVhbShieXRlcykpOyAKCXVuQ29tcHJl
+c3NlZFBheWxvYWQgPSBJT1V0aWxzLnRvU3RyaW5nKHppKTsKCX1maW5hbGx5ewoJSU9VdGlscy5j
+bG9zZVF1aWV0bHkoemkpOyAKCX0KCXJldHVybiB1bkNvbXByZXNzZWRQYXlsb2FkOwoJfQoKCgoK
+c3RhdGljICBMaXN0PFN0cmluZz4gbWFwTG9va3VwKFN0cmluZyByZWdleCwgSGFzaE1hcDxTdHJp
+bmcsIFN0cmluZz4gaW5wdXRtYXAgKXsKCQlQYXR0ZXJuIHBhdHRlcm4gPSBQYXR0ZXJuLmNvbXBp
+bGUocmVnZXgpOwoJCSAKCQkgTGlzdDxTdHJpbmc+IHZhbHVlcyAgPSBpbnB1dG1hcC5rZXlTZXQo
+KS5zdHJlYW0oKS5maWx0ZXIoc3RyaW5nIC0+IHBhdHRlcm4ubWF0Y2hlcihzdHJpbmcpLm1hdGNo
+ZXMoKSkuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsKCQlpZih2YWx1ZXMhPSBudWxsICYm
+ICF2YWx1ZXMuaXNFbXB0eSgpKXsKCSAgICAgIHJldHVybiAgdmFsdWVzOwoJCgkgICB9CgkJCgkJ
+cmV0dXJuIG5ldyBBcnJheUxpc3Q8PigpOwoJfQ==</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>org.apache.commons.io.IOUtils</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>java.util.List</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Base64</value>
+    <value>java.util.HashMap</value>
+    <value>java.util.Iterator</value>
+    <value>java.util.regex.Matcher</value>
+    <value>java.util.regex.Pattern</value>
+    <value>java.util.stream.Collectors</value>
+    <value>java.util.zip.GZIPInputStream</value>
+    <value>org.skyscreamer.jsonassert.comparator.CustomComparator</value>
+    <value>org.skyscreamer.jsonassert.*</value>
+    <value>org.xmlunit.builder.DiffBuilder</value>
+    <value>org.xmlunit.diff.*</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataUtil</value>
+    <value>java.io.FileOutputStream</value>
+    <value>java.io.FileWriter</value>
+    <value>java.io.IOException</value>
+    <value>java.net.MalformedURLException</value>
+    <value>java.net.URL</value>
+    <value>java.io.BufferedWriter</value>
+    <value>java.io.ByteArrayInputStream</value>
+    <value>java.io.File</value>
+  </array>
+</Values>

@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+</style>
+	</head>
+	<body>
+		<table style="width:100%">
+				<tr>
+					<th>API Name</th>
+					<th>API Version</th>
+					<th>Operation Name</th>
+					<th>Request Number</th>
+					<th>Status</th>
+					<th>Issues</th>
+					<th>Request</th>
+					<th>Expected_Response</th>
+					<th>ActualResponse</th>
+				</tr>
+			
+				<tr>
+					<td>Concat_REST</td>
+					<td>2.0</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>No Test Data Available</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			
+				<tr>
+					<td>Concat_SOAP</td>
+					<td>1.0</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>No Test Data Available</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			
+				<tr>
+					<td>MathOperations</td>
+					<td>1.0</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>No Test Data Available</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			
+				<tr>
+					<td>MathOperations</td>
+					<td>1.1</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>No Test Data Available</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			
+				<tr>
+					<td>MathsOperations</td>
+					<td>2_0</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>No Test Data Available</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			
+				<tr>
+					<td>MathsOperationsSOAP</td>
+					<td>1.0</td>
+					<td>addNumbers</td>
+					<td>1</td>
+					<td>Success</td>
+					<td>N/A</td>
+					<td>&lt;apim:addNumbers xmlns:apim=&#34;http://SAG-6Z700F3/APIMigrationTest.ws:MathOperations&#34;&gt;
+  &lt;number1&gt;200&lt;/number1&gt;
+  &lt;number2&gt;600&lt;/number2&gt;
+&lt;/apim:addNumbers&gt;</td>
+					<td>&lt;ser-root:addNumbersResponse xmlns:ser-root=&#34;http://SAG-6Z700F3/APIMigrationTest.ws:MathOperations&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;result&gt;800&lt;/result&gt;&lt;currentTime&gt;05-09-2022 04:07:27.091&lt;/currentTime&gt;&lt;/ser-root:addNumbersResponse&gt;</td>
+					<td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;&lt;ser-root:addNumbersResponse xmlns:ser-root=&#34;http://SAG-6Z700F3/APIMigrationTest.ws:MathOperations&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;result&gt;800&lt;/result&gt;&lt;currentTime&gt;05-09-2022 10:38:53.537&lt;/currentTime&gt;&lt;/ser-root:addNumbersResponse&gt;</td>
+				</tr>
+			
+				<tr>
+					<td>MathsOperationsSOAP</td>
+					<td>1.0</td>
+					<td>addNumbers</td>
+					<td>5</td>
+					<td>Success</td>
+					<td>N/A</td>
+					<td>&lt;apim:addNumbers xmlns:apim=&#34;http://SAG-6Z700F3/APIMigrationTest.ws:MathOperations&#34;&gt;
+  &lt;number1&gt;300&lt;/number1&gt;
+  &lt;number2&gt;200&lt;/number2&gt;
+&lt;/apim:addNumbers&gt;</td>
+					<td>&lt;ser-root:addNumbersResponse xmlns:ser-root=&#34;http://SAG-6Z700F3/APIMigrationTest.ws:MathOperations&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;result&gt;500&lt;/result&gt;&lt;currentTime&gt;05-09-2022 04:07:20.492&lt;/currentTime&gt;&lt;/ser-root:addNumbersResponse&gt;</td>
+					<td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;&lt;ser-root:addNumbersResponse xmlns:ser-root=&#34;http://SAG-6Z700F3/APIMigrationTest.ws:MathOperations&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;result&gt;500&lt;/result&gt;&lt;currentTime&gt;05-09-2022 10:38:54.496&lt;/currentTime&gt;&lt;/ser-root:addNumbersResponse&gt;</td>
+				</tr>
+			
+				<tr>
+					<td>Multiply</td>
+					<td>1.0</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>No Test Data Available</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+			
+				<tr>
+					<td>Service3</td>
+					<td>1.0</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>Either API is inactive or error occurred while fetching API details</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+					</table>
+	</body>
+</html>

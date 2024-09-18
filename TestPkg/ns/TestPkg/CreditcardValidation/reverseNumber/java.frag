@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">reverseNumber</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQpTdHJpbmcJbnVtYmVyID0gSURhdGFVdGlsLmdldFN0cmluZyhwaXBlbGluZUN1cnNv
+ciwgIm51bWJlciIpOw0KLy9pbnQgbnVtYmVycz1JbnRlZ2VyLnBhcnNlSW50KG51bWJlcik7DQps
+b25nIG51bT1Mb25nLnBhcnNlTG9uZyhudW1iZXIpOyANCmxvbmcgcmV2ZXJzZSA9IDA7ICANCndo
+aWxlKG51bSAhPSAwKSAgIA0KeyAgDQpsb25nIHJlbWFpbmRlciA9IG51bSAlIDEwOyAgDQpyZXZl
+cnNlID0gcmV2ZXJzZSAqIDEwICsgcmVtYWluZGVyOyAgDQpudW0gPSBudW0vMTA7ICANCn0gDQpw
+aXBlbGluZUN1cnNvci5kZXN0cm95KCk7DQovLyBwaXBlbGluZQ0KU3RyaW5nIHJldmVyc2VTPUxv
+bmcudG9TdHJpbmcocmV2ZXJzZSk7DQpJRGF0YUN1cnNvciBwaXBlbGluZUN1cnNvcl8xID0gcGlw
+ZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJRGF0YVV0aWwucHV0KCBwaXBlbGluZUN1cnNvcl8xLCAicmV2
+ZXJzZSIsIHJldmVyc2VTKTsNCnBpcGVsaW5lQ3Vyc29yXzEuZGVzdHJveSgpOw==</value>
+</Values>

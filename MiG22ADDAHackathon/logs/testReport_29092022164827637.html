@@ -1,0 +1,742 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+</style>
+	</head>
+	<body>
+		<table style="width:100%">
+				<tr>
+                     <th>API Name</th>
+                     <th>API Version</th>
+                     <th>Operation Name</th>					 
+					 <th>Response Status</th>
+					 <th>Native Request Status</th>
+					 <th>Native Response Status</th>					 
+					 <th>Overall Status</th>
+                     <th>Request Number</th>
+                     <th>ErrorMsg</th>
+					 <th>NativeErrorMsg</th>
+                     <th>Request</th>
+                     <th>Expected Response</th>
+                     <th>Actual Response</th>
+                     <th>Native Expected Request</th>
+					 <th>Native Actual Request</th>
+                     <th>Native Expected Response</th>
+                     <th>Native Actual Response</th>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161959716</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161937887</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161927025</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcopenAccountForCustomer</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162005345</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;data&#34; : {
+    &#34;accountId&#34; : &#34;499387763&#34;,
+    &#34;displayName&#34; : &#34;John Lax Cooper&#34;,
+    &#34;nickname&#34; : &#34;personal&#34;,
+    &#34;openStatus&#34; : &#34;OPEN&#34;,
+    &#34;accountNumber&#34; : &#34;44455578860&#34;,
+    &#34;creditCard&#34; : [ {
+      &#34;cardName&#34; : &#34;Money Back&#34;,
+      &#34;minPaymentAmount&#34; : &#34;45.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;75.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-05-21&#34;
+    }, {
+      &#34;cardName&#34; : &#34;Flipcart&#34;,
+      &#34;minPaymentAmount&#34; : &#34;100.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;500.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-06-30&#34;
+    } ],
+    &#34;loan&#34; : {
+      &#34;originalStartDate&#34; : &#34;2019-04-10&#34;,
+      &#34;originalLoanAmount&#34; : &#34;15500&#34;,
+      &#34;originalLoanCurrency&#34; : &#34;USD&#34;,
+      &#34;loanEndDate&#34; : &#34;2024-04-10&#34;,
+      &#34;nextInstalmentDate&#34; : &#34;2019-05-10&#34;,
+      &#34;minInstalmentAmount&#34; : &#34;100&#34;,
+      &#34;minInstalmentCurrency&#34; : &#34;USD&#34;,
+      &#34;loanPurpose&#34; : &#34;INTEREST_ONLY&#34;
+    }
+  }
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;100&#34;,&#34;loanLeft&#34;:&#34;15400&#34;,&#34;loanStatus&#34;:&#34;Success&#34;},&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}]}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;100&#34;,&#34;loanLeft&#34;:&#34;15400&#34;,&#34;loanStatus&#34;:&#34;Success&#34;},&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}]}}</td>
+                     <td>{
+  &#34;data&#34; : {
+    &#34;accountId&#34; : &#34;499387763&#34;,
+    &#34;displayName&#34; : &#34;John Lax Cooper&#34;,
+    &#34;nickname&#34; : &#34;personal&#34;,
+    &#34;openStatus&#34; : &#34;OPEN&#34;,
+    &#34;accountNumber&#34; : &#34;44455578860&#34;,
+    &#34;creditCard&#34; : [ {
+      &#34;cardName&#34; : &#34;Money Back&#34;,
+      &#34;minPaymentAmount&#34; : &#34;45.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;75.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-05-21&#34;
+    }, {
+      &#34;cardName&#34; : &#34;Flipcart&#34;,
+      &#34;minPaymentAmount&#34; : &#34;100.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;500.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-06-30&#34;
+    } ],
+    &#34;loan&#34; : {
+      &#34;originalStartDate&#34; : &#34;2019-04-10&#34;,
+      &#34;originalLoanAmount&#34; : &#34;15500&#34;,
+      &#34;originalLoanCurrency&#34; : &#34;USD&#34;,
+      &#34;loanEndDate&#34; : &#34;2024-04-10&#34;,
+      &#34;nextInstalmentDate&#34; : &#34;2019-05-10&#34;,
+      &#34;minInstalmentAmount&#34; : &#34;100&#34;,
+      &#34;minInstalmentCurrency&#34; : &#34;USD&#34;,
+      &#34;loanPurpose&#34; : &#34;INTEREST_ONLY&#34;
+    }
+  }
+}</td>
+					 <td>{
+  &#34;data&#34; : {
+    &#34;accountId&#34; : &#34;499387763&#34;,
+    &#34;displayName&#34; : &#34;John Lax Cooper&#34;,
+    &#34;nickname&#34; : &#34;personal&#34;,
+    &#34;openStatus&#34; : &#34;OPEN&#34;,
+    &#34;accountNumber&#34; : &#34;44455578860&#34;,
+    &#34;creditCard&#34; : [ {
+      &#34;cardName&#34; : &#34;Money Back&#34;,
+      &#34;minPaymentAmount&#34; : &#34;45.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;75.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-05-21&#34;
+    }, {
+      &#34;cardName&#34; : &#34;Flipcart&#34;,
+      &#34;minPaymentAmount&#34; : &#34;100.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;500.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-06-30&#34;
+    } ],
+    &#34;loan&#34; : {
+      &#34;originalStartDate&#34; : &#34;2019-04-10&#34;,
+      &#34;originalLoanAmount&#34; : &#34;15500&#34;,
+      &#34;originalLoanCurrency&#34; : &#34;USD&#34;,
+      &#34;loanEndDate&#34; : &#34;2024-04-10&#34;,
+      &#34;nextInstalmentDate&#34; : &#34;2019-05-10&#34;,
+      &#34;minInstalmentAmount&#34; : &#34;100&#34;,
+      &#34;minInstalmentCurrency&#34; : &#34;USD&#34;,
+      &#34;loanPurpose&#34; : &#34;INTEREST_ONLY&#34;
+    }
+  }
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;100&#34;,&#34;loanLeft&#34;:&#34;15400&#34;,&#34;loanStatus&#34;:&#34;Success&#34;},&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}]}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;100&#34;,&#34;loanLeft&#34;:&#34;15400&#34;,&#34;loanStatus&#34;:&#34;Success&#34;},&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}]}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161948574</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387763&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387763&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387763&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcopenAccountForCustomer</td>					 
+					 <td>Failed</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>Failed</td>
+                     <td>20220919162010923</td>
+                     <td>com.wm.net.NetException: [ISC.0064.9314] Authorization Required: Unauthorized</td>
+					 <td>No Native request and response message found-------END</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161910186</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161915574</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161921146</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161932303</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>Failed</td>
+                     <td>20220919161954262</td>
+                     <td></td>
+					 <td>No Native request and response message found-------END</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>Bank Customer</td>
+                     <td>1.0</td>
+                     <td>custmrSvcgetCustomerBankDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919161943171</td>
+                     <td></td>
+					 <td></td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387763&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+                     <td>{
+  &#34;accountId&#34; : &#34;499387763&#34;
+}</td>
+					 <td>{
+  &#34;accountId&#34; : &#34;499387763&#34;
+}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+                     <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;30000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;75000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;MARRIAGE&#34;,&#34;loanPaid&#34;:&#34;5000&#34;,&#34;loanLeft&#34;:&#34;0&#34;,&#34;loanStatus&#34;:&#34;Closed&#34;}}}</td>
+				</tr>
+			
+				<tr>
+                     <td>ColorDetails</td>
+                     <td>1.0</td>
+                     <td>getColorDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162019219</td>
+                     <td></td>
+					 <td></td>
+                     <td>{&#34;id&#34;:&#34;2&#34;}</td>
+                     <td>{&#34;getColorDetailsResponse&#34;:{&#34;responseMsg&#34;:&#34;&lt;?xml version=\&#34;1.0\&#34;?&gt;\n&lt;data&gt;\n  &lt;id&gt;2&lt;\/id&gt;\n  &lt;name&gt;fuchsia rose&lt;\/name&gt;\n  &lt;year&gt;2001&lt;\/year&gt;\n  &lt;color&gt;#C74375&lt;\/color&gt;\n  &lt;pantone_value&gt;17-2031&lt;\/pantone_value&gt;\n&lt;\/data&gt;&#34;}}</td>
+                     <td>{&#34;getColorDetailsResponse&#34;:{&#34;responseMsg&#34;:&#34;&lt;?xml version=\&#34;1.0\&#34;?&gt;\n&lt;data&gt;\n  &lt;id&gt;2&lt;\/id&gt;\n  &lt;name&gt;fuchsia rose&lt;\/name&gt;\n  &lt;year&gt;2001&lt;\/year&gt;\n  &lt;color&gt;#C74375&lt;\/color&gt;\n  &lt;pantone_value&gt;17-2031&lt;\/pantone_value&gt;\n&lt;\/data&gt;&#34;}}</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;axis2ns11:getColorDetails xmlns:axis2ns11=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;&lt;id&gt;2&lt;/id&gt;&lt;/axis2ns11:getColorDetails&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+					 <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;axis2ns22:getColorDetails xmlns:axis2ns22=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;&lt;id&gt;2&lt;/id&gt;&lt;/axis2ns22:getColorDetails&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;name&gt;fuchsia rose&amp;lt;/name&gt;
+  &amp;lt;year&gt;2001&amp;lt;/year&gt;
+  &amp;lt;color&gt;#C74375&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;17-2031&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;name&gt;fuchsia rose&amp;lt;/name&gt;
+  &amp;lt;year&gt;2001&amp;lt;/year&gt;
+  &amp;lt;color&gt;#C74375&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;17-2031&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+				</tr>
+			
+				<tr>
+                     <td>ColorDetails</td>
+                     <td>1.0</td>
+                     <td>getColorDetails</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162013765</td>
+                     <td></td>
+					 <td></td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;getColorDetails xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;
+      &lt;id&gt;3&lt;/id&gt;
+    &lt;/getColorDetails&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;getColorDetails xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;
+      &lt;id&gt;3&lt;/id&gt;
+    &lt;/getColorDetails&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+					 <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;getColorDetails xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34;&gt;
+      &lt;id&gt;3&lt;/id&gt;
+    &lt;/getColorDetails&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:getColorDetailsResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;3&amp;lt;/id&gt;
+  &amp;lt;name&gt;true red&amp;lt;/name&gt;
+  &amp;lt;year&gt;2002&amp;lt;/year&gt;
+  &amp;lt;color&gt;#BF1932&amp;lt;/color&gt;
+  &amp;lt;pantone_value&gt;19-1664&amp;lt;/pantone_value&gt;
+&amp;lt;/data&gt;&lt;/responseMsg&gt;&lt;/ser-root:getColorDetailsResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+				</tr>
+			
+				<tr>
+                     <td>ConvertToUpperCase</td>
+                     <td>1</td>
+                     <td>request2</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162024803</td>
+                     <td></td>
+					 <td></td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;request2 xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34;&gt;
+      &lt;inRequest&gt;A regular expression is a text string that describes some set of strings&lt;/inRequest&gt;
+    &lt;/request2&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request2Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;outRequest&gt;A REGULAR EXPRESSION IS A TEXT STRING THAT DESCRIBES SOME SET OF STRINGS&lt;/outRequest&gt;&lt;/ser-root:request2Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request2Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;outRequest&gt;A REGULAR EXPRESSION IS A TEXT STRING THAT DESCRIBES SOME SET OF STRINGS&lt;/outRequest&gt;&lt;/ser-root:request2Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;request2 xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34;&gt;
+      &lt;inRequest&gt;A regular expression is a text string that describes some set of strings&lt;/inRequest&gt;
+    &lt;/request2&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+					 <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;request2 xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34;&gt;
+      &lt;inRequest&gt;A regular expression is a text string that describes some set of strings&lt;/inRequest&gt;
+    &lt;/request2&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request2Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;outRequest&gt;A REGULAR EXPRESSION IS A TEXT STRING THAT DESCRIBES SOME SET OF STRINGS&lt;/outRequest&gt;&lt;/ser-root:request2Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:request2Response xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.soapServices.request2:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;outRequest&gt;A REGULAR EXPRESSION IS A TEXT STRING THAT DESCRIBES SOME SET OF STRINGS&lt;/outRequest&gt;&lt;/ser-root:request2Response&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+				</tr>
+			
+				<tr>
+                     <td>GetEmployeeList</td>
+                     <td>1.0</td>
+                     <td>newrestsample7</td>					 
+					 <td>Failed</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>Failed</td>
+                     <td>20220919162030365</td>
+                     <td>{&#34;Exception&#34;:&#34;API Gateway encountered an error. Error Message:  Native service provider error. Code : 400. Request Details: Service - GetEmployeeList, Operation - /new_rest/sample7, Invocation Time:4:48:22 PM, Date:Sep 29, 2022,  Client IP - 127.0.0.1, User - Default and Application:getEmployeeList&#34;}</td>
+					 <td>No Native request and response message found-------END</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>LaborDetails</td>
+                     <td>1</td>
+                     <td>N/A</td>					 
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>No Test Data Available</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>MaxData</td>
+                     <td>1</td>
+                     <td>N/A</td>					 
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>No Test Data Available</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>OrderDetails</td>
+                     <td>1.0</td>
+                     <td>N/A</td>					 
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>No Test Data Available</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+					 <td>N/A</td>
+                     <td>N/A</td>
+                     <td>N/A</td>
+				</tr>
+			
+				<tr>
+                     <td>UserRegistration</td>
+                     <td>1.0</td>
+                     <td>userRegistration</td>					 
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+					 <td>Success</td>
+                     <td>20220919162035943</td>
+                     <td></td>
+					 <td></td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;userRegistration xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34;&gt;
+      &lt;reqBody&gt;
+        &lt;data&gt;
+          &lt;id&gt;2&lt;/id&gt;
+          &lt;email&gt;janet.weaver@reqres.in&lt;/email&gt;
+          &lt;first_name&gt;Janet&lt;/first_name&gt;
+          &lt;last_name&gt;Weaver&lt;/last_name&gt;
+          &lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&lt;/avatar&gt;
+        &lt;/data&gt;
+        &lt;support&gt;
+          &lt;url&gt;https://reqres.in/#support-heading&lt;/url&gt;
+          &lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&lt;/text&gt;
+        &lt;/support&gt;
+      &lt;/reqBody&gt;
+    &lt;/userRegistration&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:userRegistrationResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;email&gt;janet.weaver@reqres.in&amp;lt;/email&gt;
+  &amp;lt;first_name&gt;Janet&amp;lt;/first_name&gt;
+  &amp;lt;last_name&gt;Weaver&amp;lt;/last_name&gt;
+  &amp;lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&amp;lt;/avatar&gt;
+&amp;lt;/data&gt;
+&amp;lt;support&gt;
+  &amp;lt;url&gt;https://reqres.in/#support-heading&amp;lt;/url&gt;
+  &amp;lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&amp;lt;/text&gt;
+&amp;lt;/support&gt;&lt;/responseMsg&gt;&lt;/ser-root:userRegistrationResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:userRegistrationResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;email&gt;janet.weaver@reqres.in&amp;lt;/email&gt;
+  &amp;lt;first_name&gt;Janet&amp;lt;/first_name&gt;
+  &amp;lt;last_name&gt;Weaver&amp;lt;/last_name&gt;
+  &amp;lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&amp;lt;/avatar&gt;
+&amp;lt;/data&gt;
+&amp;lt;support&gt;
+  &amp;lt;url&gt;https://reqres.in/#support-heading&amp;lt;/url&gt;
+  &amp;lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&amp;lt;/text&gt;
+&amp;lt;/support&gt;&lt;/responseMsg&gt;&lt;/ser-root:userRegistrationResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;userRegistration xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34;&gt;
+      &lt;reqBody&gt;
+        &lt;data&gt;
+          &lt;id&gt;2&lt;/id&gt;
+          &lt;email&gt;janet.weaver@reqres.in&lt;/email&gt;
+          &lt;first_name&gt;Janet&lt;/first_name&gt;
+          &lt;last_name&gt;Weaver&lt;/last_name&gt;
+          &lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&lt;/avatar&gt;
+        &lt;/data&gt;
+        &lt;support&gt;
+          &lt;url&gt;https://reqres.in/#support-heading&lt;/url&gt;
+          &lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&lt;/text&gt;
+        &lt;/support&gt;
+      &lt;/reqBody&gt;
+    &lt;/userRegistration&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+					 <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soap:Envelope xmlns:soap=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soap:Body&gt;
+    &lt;userRegistration xmlns=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34;&gt;
+      &lt;reqBody&gt;
+        &lt;data&gt;
+          &lt;id&gt;2&lt;/id&gt;
+          &lt;email&gt;janet.weaver@reqres.in&lt;/email&gt;
+          &lt;first_name&gt;Janet&lt;/first_name&gt;
+          &lt;last_name&gt;Weaver&lt;/last_name&gt;
+          &lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&lt;/avatar&gt;
+        &lt;/data&gt;
+        &lt;support&gt;
+          &lt;url&gt;https://reqres.in/#support-heading&lt;/url&gt;
+          &lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&lt;/text&gt;
+        &lt;/support&gt;
+      &lt;/reqBody&gt;
+    &lt;/userRegistration&gt;
+  &lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:userRegistrationResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;email&gt;janet.weaver@reqres.in&amp;lt;/email&gt;
+  &amp;lt;first_name&gt;Janet&amp;lt;/first_name&gt;
+  &amp;lt;last_name&gt;Weaver&amp;lt;/last_name&gt;
+  &amp;lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&amp;lt;/avatar&gt;
+&amp;lt;/data&gt;
+&amp;lt;support&gt;
+  &amp;lt;url&gt;https://reqres.in/#support-heading&amp;lt;/url&gt;
+  &amp;lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&amp;lt;/text&gt;
+&amp;lt;/support&gt;&lt;/responseMsg&gt;&lt;/ser-root:userRegistrationResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+                     <td>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&gt;&lt;soapenv:Body&gt;&lt;ser-root:userRegistrationResponse xmlns:ser-root=&#34;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:new_wsd&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;&gt;&lt;responseMsg&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;
+&amp;lt;data&gt;
+  &amp;lt;id&gt;2&amp;lt;/id&gt;
+  &amp;lt;email&gt;janet.weaver@reqres.in&amp;lt;/email&gt;
+  &amp;lt;first_name&gt;Janet&amp;lt;/first_name&gt;
+  &amp;lt;last_name&gt;Weaver&amp;lt;/last_name&gt;
+  &amp;lt;avatar&gt;https://reqres.in/img/faces/2-image.jpg&amp;lt;/avatar&gt;
+&amp;lt;/data&gt;
+&amp;lt;support&gt;
+  &amp;lt;url&gt;https://reqres.in/#support-heading&amp;lt;/url&gt;
+  &amp;lt;text&gt;To keep ReqRes free, contributions towards server costs are appreciated!&amp;lt;/text&gt;
+&amp;lt;/support&gt;&lt;/responseMsg&gt;&lt;/ser-root:userRegistrationResponse&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</td>
+				</tr>
+					</table>
+	</body>
+</html>

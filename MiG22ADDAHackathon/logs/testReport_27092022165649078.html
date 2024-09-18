@@ -1,0 +1,435 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+			th{
+				background-color: #E0FFFF;
+				}
+</style>
+	</head>
+	<body>
+		<table style="width:100%">
+				<tr>
+                     <th>API Name</th>
+                     <th>API Version</th>
+                     <th>Operation Name</th>
+			   <th>Overall Status</th>
+			   <th>Response Status</th>
+			   <th>Native Response Status</th>
+                     <th>Request Number</th>
+                     <th>ErrorMsg</th>
+			   <th>NativeErrorMsg</th>
+                     <th>Request</th>
+                     <th>Expected Response</th>
+                     <th>Actual Response</th>
+                     <th>Native Request</th>
+                     <th>Native Expected Response</th>
+                     <th>Native Actual Response</th>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Success</td>
+					 <td>N/A</td>
+                               <td>20220919161959716</td>
+                               <td></td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>{
+  &#34;accountId&#34; : &#34;499387762&#34;
+}</td>
+                               <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                               <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Q. Smith&#34;,&#34;accountNumber&#34;:&#34;44455578889&#34;,&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}],&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;500&#34;,&#34;loanLeft&#34;:&#34;15000&#34;,&#34;loanStatus&#34;:&#34;Active&#34;}}}</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161937887</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;e992e397-1141-491d-8d3a-c9f9ffe120c1&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171715000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344515000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161927025</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;177fff2f-3412-4661-97b4-1334081b6ef1&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171721000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344521000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcopenAccountForCustomer</td>
+					 <td>Failed</td>
+					 <td>Success</td>
+					 <td>N/A</td>
+                               <td>20220919162005345</td>
+                               <td></td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>{
+  &#34;data&#34; : {
+    &#34;accountId&#34; : &#34;499387763&#34;,
+    &#34;displayName&#34; : &#34;John Lax Cooper&#34;,
+    &#34;nickname&#34; : &#34;personal&#34;,
+    &#34;openStatus&#34; : &#34;OPEN&#34;,
+    &#34;accountNumber&#34; : &#34;44455578860&#34;,
+    &#34;creditCard&#34; : [ {
+      &#34;cardName&#34; : &#34;Money Back&#34;,
+      &#34;minPaymentAmount&#34; : &#34;45.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;75.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-05-21&#34;
+    }, {
+      &#34;cardName&#34; : &#34;Flipcart&#34;,
+      &#34;minPaymentAmount&#34; : &#34;100.00&#34;,
+      &#34;paymentDueAmount&#34; : &#34;500.00&#34;,
+      &#34;paymentCurrency&#34; : &#34;USD&#34;,
+      &#34;paymentDueDate&#34; : &#34;2019-06-30&#34;
+    } ],
+    &#34;loan&#34; : {
+      &#34;originalStartDate&#34; : &#34;2019-04-10&#34;,
+      &#34;originalLoanAmount&#34; : &#34;15500&#34;,
+      &#34;originalLoanCurrency&#34; : &#34;USD&#34;,
+      &#34;loanEndDate&#34; : &#34;2024-04-10&#34;,
+      &#34;nextInstalmentDate&#34; : &#34;2019-05-10&#34;,
+      &#34;minInstalmentAmount&#34; : &#34;100&#34;,
+      &#34;minInstalmentCurrency&#34; : &#34;USD&#34;,
+      &#34;loanPurpose&#34; : &#34;INTEREST_ONLY&#34;
+    }
+  }
+}</td>
+                               <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;100&#34;,&#34;loanLeft&#34;:&#34;15400&#34;,&#34;loanStatus&#34;:&#34;Success&#34;},&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}]}}</td>
+                               <td>{&#34;respBody&#34;:{&#34;accountStatus&#34;:&#34;OPEN&#34;,&#34;accountHolderName&#34;:&#34;John Lax Cooper&#34;,&#34;accountNumber&#34;:&#34;44455578860&#34;,&#34;loanDetails&#34;:{&#34;loanName&#34;:&#34;INTEREST_ONLY&#34;,&#34;loanPaid&#34;:&#34;100&#34;,&#34;loanLeft&#34;:&#34;15400&#34;,&#34;loanStatus&#34;:&#34;Success&#34;},&#34;creditCardDetails&#34;:[{&#34;cardName&#34;:&#34;Money Back&#34;,&#34;cardLimit&#34;:&#34;50000&#34;},{&#34;cardName&#34;:&#34;Flipcart&#34;,&#34;cardLimit&#34;:&#34;95000&#34;}]}}</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161948574</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387763?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/openAccountForCustomer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;abab001d-e27e-4d75-90b5-99b7b872a041&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171732000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344532000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcopenAccountForCustomer</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919162010923</td>
+                               <td>com.wm.net.NetException: [ISC.0064.9314] Authorization Required: Unauthorized</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161910186</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/openAccountForCustomer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;92e8c744-4ed8-400f-8131-fe9e254b0a80&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;%contentType%&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171742000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344542000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161915574</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;f61107ac-4c6c-44fc-a73a-6742c502a392&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171748000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344548000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161921146</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;b9c81e4e-32ab-4b8c-bb65-e910eb833522&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171754000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344554000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161932303</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;2162867d-67d0-463c-bf81-52e5cdb990e3&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171759000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344559000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161954262</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387762?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;c973b965-3090-4bd4-9627-768368797a63&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171765000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344565000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>Bank Customer</td>
+                               <td>1.0</td>
+                               <td>custmrSvcgetCustomerBankDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919161943171</td>
+                               <td>java.io.IOException: Illegal character in query at index 103: http://localhost:7777/gateway/Bank%20Customer/1.0/custmrSvc/getCustomerBankDetails?accountId=499387763?{%0D%0A++&#34;from&#34;:+0,%0D%0A++&#34;size&#34;:+10,%0D%0A++&#34;query&#34;:+{%0D%0A++&#34;bool&#34;:+{%0D%0A++++&#34;must&#34;:+[%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;apiName&#34;:+&#34;Bank+Customer&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;eventType&#34;:+&#34;Transactional&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;apiVersion&#34;:+&#34;1.0&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;operationName&#34;:+&#34;custmrSvc/getCustomerBankDetails&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A%09++{%0D%0A++++++++&#34;match_phrase&#34;:+{%0D%0A++++++++++&#34;requestHeaders.migration-uuid&#34;:+&#34;8d9d2779-39b9-4f00-9a3c-62f5aa176fbb&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;requestHeaders.Content-Type&#34;:+&#34;application/json&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;match&#34;:+{%0D%0A++++++++++&#34;status&#34;:+&#34;SUCCESS&#34;%0D%0A++++++++}%0D%0A++++++},%0D%0A++++++{%0D%0A++++++++&#34;range&#34;:+{%0D%0A++++++++++&#34;creationDate&#34;:+{%0D%0A++++++++++++&#34;gte&#34;:+&#34;1664171771000&#34;,%0D%0A++++++++++++&#34;lte&#34;:+&#34;1664344571000&#34;%0D%0A++++++++++}%0D%0A++++++++}%0D%0A++++++}%0D%0A++++]%0D%0A++}%0D%0A},%0D%0A++&#34;sort&#34;:[{&#34;creationDate&#34;:{&#34;order&#34;:&#34;desc&#34;}}]%0D%0A}%0D%0A</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>ColorDetails</td>
+                               <td>1.0</td>
+                               <td>getColorDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919162019219</td>
+                               <td>getColorDetailsResponse
+Expected: respBody
+     but none found
+ ; getColorDetailsResponse
+Unexpected: responseMsg
+</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>{&#34;id&#34;:&#34;2&#34;}</td>
+                               <td>{&#34;getColorDetailsResponse&#34;:{&#34;responseMsg&#34;:&#34;&lt;?xml version=\&#34;1.0\&#34;?&gt;\n&lt;data&gt;\n  &lt;id&gt;2&lt;\/id&gt;\n  &lt;name&gt;fuchsia rose&lt;\/name&gt;\n  &lt;year&gt;2001&lt;\/year&gt;\n  &lt;color&gt;#C74375&lt;\/color&gt;\n  &lt;pantone_value&gt;17-2031&lt;\/pantone_value&gt;\n&lt;\/data&gt;&#34;}}</td>
+                               <td>{&#34;getColorDetailsResponse&#34;:{&#34;respBody&#34;:{&#34;data&#34;:{&#34;id&#34;:&#34;2&#34;,&#34;name&#34;:&#34;fuchsia rose&#34;,&#34;year&#34;:&#34;2001&#34;,&#34;color&#34;:&#34;#C74375&#34;,&#34;pantone_value&#34;:&#34;17-2031&#34;}}}}</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>ColorDetails</td>
+                               <td>1.0</td>
+                               <td>getColorDetails</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919162013765</td>
+                               <td>{&#34;Exception&#34;:&#34;API Gateway encountered an error. Error Message:  API Gateway outbound client encountered  API Gateway could not complete the transformation of a REST request received from the consumer to a SOAP request because of an error. JSON string\:. &amp;lt;?xml version=&amp;apos;1.0&amp;apos; encoding=&amp;apos;utf-8&amp;apos;?&amp;gt;&amp;lt;soap:Envelope xmlns:soap=&amp;quot;http://schemas.xmlsoap.org/soap/envelope/&amp;quot;&amp;gt;&amp;lt;soap:Body&amp;gt;
+    &amp;lt;getColorDetails xmlns=&amp;quot;http://VMBANJNJVPROOF1.eur.ad.sag/APIGatewayTestingSample.realTimeSOapData:getColorDetailsById&amp;quot;&amp;gt;
+      &amp;lt;id&amp;gt;3&amp;lt;/id&amp;gt;
+    &amp;lt;/getColorDetails&amp;gt;
+  &amp;lt;/soap:Body&amp;gt;&amp;lt;/soap:Envelope&amp;gt;. Request Details: Service - ColorDetails, Operation - getColorDetails, Invocation Time:4:56:28 PM, Date:Sep 27, 2022,  Client IP - 127.0.0.1, User - Default and Application:ColorDetails&#34;}</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>ConvertToUpperCase</td>
+                               <td>1</td>
+                               <td>request2</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919162024803</td>
+                               <td>{&#34;Exception&#34;:&#34;API Gateway encountered an error. Error Message:  Resources for the endpoint URI not found. Endpoint URI: request2. Request Details: Service - ConvertToUpperCase, Operation - getColorDetails, Invocation Time:4:56:34 PM, Date:Sep 27, 2022,  Client IP - null, User - Default and Application:null&#34;}</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>GetEmployeeList</td>
+                               <td>1.0</td>
+                               <td>newrestsample7</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919162030365</td>
+                               <td>{&#34;Exception&#34;:&#34;API Gateway encountered an error. Error Message:  Native service provider error. Code : 400. Request Details: Service - GetEmployeeList, Operation - /new_rest/sample7, Invocation Time:4:56:40 PM, Date:Sep 27, 2022,  Client IP - 127.0.0.1, User - Default and Application:getEmployeeList&#34;}</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>LaborDetails</td>
+                               <td>1</td>
+                               <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                               <td>N/A</td>
+                               <td>No Test Data Available</td>
+					 <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>MaxData</td>
+                               <td>1</td>
+                               <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                               <td>N/A</td>
+                               <td>No Test Data Available</td>
+					 <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>OrderDetails</td>
+                               <td>1.0</td>
+                               <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+					 <td>N/A</td>
+                               <td>N/A</td>
+                               <td>No Test Data Available</td>
+					 <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+			
+				<tr>
+                               <td>UserRegistration</td>
+                               <td>1.0</td>
+                               <td>userRegistration</td>
+					 <td>Failed</td>
+					 <td>Failed</td>
+					 <td>N/A</td>
+                               <td>20220919162035943</td>
+                               <td>{&#34;Exception&#34;:&#34;API Gateway encountered an error. Error Message:  Resources for the endpoint URI not found. Endpoint URI: userRegistration. Request Details: Service - UserRegistration, Operation - null, Invocation Time:4:56:46 PM, Date:Sep 27, 2022,  Client IP - null, User - Default and Application:null&#34;}</td>
+					 <td>java.net.ConnectException: Connection refused: connect</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+                               <td>N/A</td>
+				</tr>
+					</table>
+	</body>
+</html>
